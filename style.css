@@ -1,0 +1,27 @@
+.cv {
+    width: 1024px;
+    margin: 0 auto;
+}
+.cv-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 40px;
+}
+.photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo figcaption {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.contacts-list {
+    list-style: none;
+    padding-inline-start: 10px;
+}
+.contacts-list-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
